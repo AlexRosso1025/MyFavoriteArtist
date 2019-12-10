@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hector Lavoe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+</head>
+
+<body>
+    <header class="principal">
+        <div class="header">
+            <h1>HECTOR LAVOE</h1>
+            <p>Por Alex Rosso</p>
+        </div>
+        <div>
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li><a href="#about">Hector Lavoe</a></li>
+                    <li><a href="#discography">Discografía</a></li>
+                    <li><a href="#popular">Canciones</a></li>
+                    <li><a href="https://www.fania.com/collections/fania-all-stars" target="_blank">Web</li>
+                    <li><a href="#favorita">Favorita</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="about">
+            <div>
+                <h2 class="title">¿Acerca de Hector Lavoe?</h2>
+                <p>
+                    Este famoso cantante puertorriqueño, nació en Ponce, cantante,
+                    compositor y productor musical.
+                </p>
+                <p>
+                    También integró la orquesta salsera Fania All Stars desde su
+                    creación en 1968 hasta sus últimos años de vida; Lavoe fue uno de
+                    los artistas principales del sello Fania Records, así como de la
+                    Fania All Stars. Con ellos grabó varias canciones que se
+                    convirtieron en éxitos musicales, tales como «Mi Gente», «El Rey de
+                    la Puntualidad», «Ublabadú», «Siento» y más temas que salieron en el
+                    disco recopilatorio Fania All-Stars with Hector Lavoe en 1997.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="discography">
+        <div class="disco">
+            <h2 class="title-disco">Discografía</h2>
+            <d iv class="owl-carousel owl-theme">
+                <div class="item"><img
+                        src="https://i.pinimg.com/236x/45/cd/b9/45cdb93e9bae5ea676bb8b16e99db70e--salsa-musica-latin-music.jpg"
+                        alt="Imagen de Albúm Comedia" height="350" />
+                    <h3>Comedia</h3>
+                </div>
+                <div class="item"><img
+                        src="https://img.discogs.com/YiTZHxXzHTg_GYITMAGbq0AyVh4=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1871724-1530394934-2885.jpeg.jpg"
+                        alt="Imagen de Albúm La Voz" height="350" />
+                    <h3>La voz</h3>
+                </div>
+                <div class="item"><img
+                        src="https://img.discogs.com/KRaELqhw74_gNNyT4JHuxM0Dk0g=/fit-in/593x593/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-952149-1325493375.jpeg.jpg"
+                        alt="Imagen de Albúm El Malo" height="350" />
+                    <h3>El Malo</h3>
+                </div>
+                <div class="item"><img
+                        src="https://3.bp.blogspot.com/-4BfixiMNKjc/VCy7Ki79xhI/AAAAAAAAAN4/FxvA97-2ZoY/s1600/Hector_Lavoe-El_Sabio-Trasera.jpg"
+                        alt="Imagen de Albúm El Sabio" height="350" />
+                    <h3>El Sabio</h3>
+                </div>
+        </div>
+    </section>
+
+
+
+    <section id="popular">
+        <div class="popular">
+            <h2 class="title">5 Canciones populares en Spotify</h2>
+            <iframe class="frame" src="https://open.spotify.com/embed/artist/7opp16lU7VM3l2WBdGMYHP" width="300"
+                height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+    </section>
+
+    <section id="favorita">
+        <div class="popular">
+            <h2 class="title2">Canción Favorita</h2>
+            <iframe class="frame" src="https://open.spotify.com/embed?uri=spotify:track:5Uve0jm1RgxKWzdSvncBDO" width="300"
+                height="380" allow="encrypted-media"></iframe>
+
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="owl/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+</body>
+</html>
